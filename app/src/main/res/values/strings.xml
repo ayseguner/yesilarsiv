@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">YesilArsiv</string>
+    <string name="kullanici_Adi">Kullanıcı Adı</string>
+    <string name="kullanici_Sifre">Şifre</string>
+    <string name="kayit_Ol">Kayıt Ol</string>
+    <string name="giris_Yap">GİRİŞ</string>
+
+    <string name="isim">İsim</string>
+    <string name="soyisim">Soyisim</string>
+    <string name="dogumTarihi">Doğum Tarihi</string>
+    <string name="meslek">  Meslek</string>
+    <string name="kullaniciAdi">Kullanıcı Adı</string>
+    <string name="eposta">E-Posta</string>
+    <string name="sifre">Şifre</string>
+    <string name="kayitOl">KAYIT</string>
+
+    <string name="gorselArama">GÖRSEL ARAMA</string>
+    <string name="kulturFormlari">Kültür Formları</string>
+    <string name="arsivim">ARŞİVİM</string>
+    <string name="cikisYap">Çıkış Yap</string>
+
+    <string name="dagilan">Dağılan</string>
+    <string name="dagilmayan">Dağılmayan</string>
+
+    <string name="textViewNedir">Yeşil Arşiv ekibi olarak, bitki bilimi ile ilgilen her kesim için bir arşiv oluşturmayı hedefledik.
+    Araştırma yaparken kullanılan pek çok kaynağı hem bir arada toplamak, hem de kolay yoldan doğru bilgiye ulaşılabilinmesini hedefledik.
+    Yeşil Arşiv Mobil Uygulamamızda, istediğiniz özelliklere göre bitki sorgulayabilir, kendi arşivinizi oluşturabilirsiniz. </string>
+
+
+</resources>

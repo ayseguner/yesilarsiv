@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="1500dp">
+
+                <EditText
+                    android:id="@+id/editText6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="99dp"
+                    android:layout_marginLeft="99dp"
+                    android:layout_marginTop="92dp"
+                    android:layout_marginEnd="99dp"
+                    android:layout_marginRight="99dp"
+                    android:ems="10"
+                    android:hint="@string/soyisim"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textColorHighlight="@color/logo_1"
+                    android:textColorHint="@color/logo_2"
+                    android:textColorLink="@color/logo_2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="99dp"
+                    android:layout_marginLeft="99dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="99dp"
+                    android:layout_marginRight="99dp"
+                    android:ems="10"
+                    android:hint="@string/kullaniciAdi"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textColorHighlight="@color/logo_1"
+                    android:textColorHint="@color/logo_2"
+                    android:textColorLink="@color/logo_2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="99dp"
+                    android:layout_marginLeft="99dp"
+                    android:layout_marginTop="26dp"
+                    android:layout_marginEnd="99dp"
+                    android:layout_marginRight="99dp"
+                    android:ems="10"
+                    android:hint="@string/isim"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textColorHighlight="@color/logo_1"
+                    android:textColorHint="@color/logo_2"
+                    android:textColorLink="@color/logo_2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+                <EditText
+                    android:id="@+id/editText5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="99dp"
+                    android:layout_marginLeft="99dp"
+                    android:layout_marginTop="27dp"
+                    android:layout_marginEnd="99dp"
+                    android:layout_marginRight="99dp"
+                    android:ems="10"
+                    android:hint="@string/dogumTarihi"
+                    android:inputType="textPersonName"
+                    android:scrollbarThumbHorizontal="@color/logo_2"
+                    android:scrollbarThumbVertical="@color/logo_1"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textColorHighlight="@color/logo_1"
+                    android:textColorHint="@color/logo_2"
+                    android:textColorLink="@color/logo_2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/editText6" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="230dp"
+                    android:layout_height="179dp"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="91dp"
+                    android:layout_marginRight="91dp"
+                    android:contentDescription="@string/app_name"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/yesilarsivlogo" />
+
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="99dp"
+                    android:layout_marginLeft="99dp"
+                    android:layout_marginTop="29dp"
+                    android:layout_marginEnd="99dp"
+                    android:layout_marginRight="99dp"
+                    android:ems="10"
+                    android:hint="@string/eposta"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textColorHighlight="@color/logo_1"
+                    android:textColorHint="@color/logo_2"
+                    android:textColorLink="@color/logo_2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/spinner" />
+
+                <EditText
+                    android:id="@+id/editText4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="99dp"
+                    android:layout_marginLeft="99dp"
+                    android:layout_marginTop="26dp"
+                    android:layout_marginEnd="99dp"
+                    android:layout_marginRight="99dp"
+                    android:ems="10"
+                    android:hint="@string/sifre"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textColorHighlight="@color/logo_1"
+                    android:textColorHint="@color/logo_2"
+                    android:textColorLink="@color/logo_2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/editText3" />
+
+                <Button
+                    android:id="@+id/buttonArsiv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="161dp"
+                    android:layout_marginLeft="161dp"
+                    android:layout_marginTop="27dp"
+                    android:layout_marginEnd="162dp"
+                    android:layout_marginRight="162dp"
+                    android:background="@color/logo_2"
+                    android:text="@string/kayitOl"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/editText4" />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="128dp"
+                    android:layout_height="31dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="100dp"
+                    android:layout_marginRight="100dp"
+                    android:popupBackground="@color/logo_2"
+                    android:scrollbarThumbHorizontal="@color/colorPrimaryDark"
+                    android:scrollbarThumbVertical="@color/logo_2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/editText5" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="66dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="99dp"
+                    android:layout_marginLeft="99dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginRight="1dp"
+                    android:text="@string/meslek"
+                    android:textColor="@color/logo_2"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toStartOf="@+id/spinner"
+                    app:layout_constraintHorizontal_bias="0.411"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/editText5" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
